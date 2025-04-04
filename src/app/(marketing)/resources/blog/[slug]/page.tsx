@@ -32,11 +32,9 @@
 
 
 
-
 import React from 'react';
 import blogs from "@/utils/constants/blogs.json";
 
-// Define props explicitly without a separate interface
 export default function BlogPage({ params }: { params: { slug: string } }) {
     const blog = blogs.find((blog) => blog.slug === params.slug);
     return (
