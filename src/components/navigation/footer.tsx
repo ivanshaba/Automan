@@ -13,7 +13,7 @@ const Footer = () => {
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-start justify-start md:max-w-[200px]">
                         <div className="flex items-start">
-                            <Icons.logo className="w-7 h-7" />
+                            {/* <Icons.logo className="w-7 h-7" /> */}
                         </div>
                         <p className="text-muted-foreground mt-4 text-sm text-start">
                             Manage Security with ease.
@@ -143,7 +143,7 @@ const Footer = () => {
             </div>
 
             <div className="h-[20rem] lg:h-[20rem] hidden md:flex items-center justify-center">
-                <TextHoverEffect text="Ottoman" />
+                <TextHoverEffect text="Automan" />
             </div>
         </footer>
     )
